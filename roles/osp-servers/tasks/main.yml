@@ -1,0 +1,3 @@
+---
+- include_tasks: osp-instance.yml
+    with_dict: "{{ osp_servers }}"

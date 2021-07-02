@@ -1,0 +1,8 @@
+---
+# defaults file for roles/config-tower
+github_repo: 'https://github.com/alicegolakiya/nextgen_ansible_advanced_homework'
+osp_GUID: 'f769'
+osp_DOMAIN: 'dynamic.opentlc.com'
+REGION_NAME: 'us-east-1'
+EMAIL: 'alice.golakiya@infosys.com'
+param_repo_base: 'https://github.com/alicegolakiya/nextgen_ansible_advanced_homework'
