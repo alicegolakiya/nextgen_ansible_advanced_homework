@@ -1,0 +1,17 @@
+resources:
+ repositories:
+   - repository: templates
+     type: github
+     name: alicegolakiya/nextgen_ansible_advanced_homework
+     endpoint: 
+     ref: 
+
+variables:
+  - group: AnsibleVar
+
+stages:
+- template: pipeline_templates/release.yml
+  parameters:
+    agentPoolName:
+    agentOS
+    
